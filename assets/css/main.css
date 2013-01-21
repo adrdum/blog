@@ -1,0 +1,136 @@
+.content {
+    min-height: 400px;
+}
+
+.page-header h1 {
+    margin: 0;
+}
+
+.container > footer p {
+    text-align: center; /* centrer le footer */
+}
+
+.clearfix textarea {
+    width: 400px;
+    height: 300px;
+}
+
+.checkbox_inline
+{
+    margin-top: 10px;
+}
+
+.checkbox_inline label, .checkbox_inline div
+{
+    display: inline;
+}
+
+.checkbox_inline label, .checkbox_inline input
+{
+    margin: 0;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.pagination .active
+{
+    background-color: #5A6A7D;
+}
+
+article
+{
+    border-radius: 6px;
+    background-color: #45515F;
+    padding: 2px;
+    margin: 25px 0;
+}
+
+article h3
+{
+    padding: 3px;
+    margin: 0px 2px !important;
+}
+
+article .ligne
+{
+    margin: 2px !important;
+    margin-top: 4px !important;
+    border-radius: 3px;
+    background-color: #2A333C;
+    padding: 3px;
+}
+
+article .image
+{
+    margin: 4px 2px;
+    text-align: center;
+}
+
+article .image img
+{
+    border-radius: 3px;
+}
+
+article .ligne_date .bouton
+{
+    float: right;
+    position: relative;
+    bottom: 2px;
+}
+
+article .ligne_date .bouton .btn
+{
+    margin-left: 2px;
+}
+
+article .ligne .tag
+{
+    margin-right: 5px;
+    display: inline-block;
+}
+
+article .ligne .tag img
+{
+    margin-right: 2px;
+}
+
+body
+{
+    overflow-y: scroll;
+}
+
+.pagination li a
+{
+    /* pagination de largeur fixe */
+    width: 42px;
+    padding: 0 0 2px 0;
+}
+
+.cacher_notif
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    color: #ccc !important;
+    text-align: center !important;
+    margin-right: -25px !important;
+    font-weight: 900 !important;
+}
+
+.cacher_notif:hover
+{
+    text-decoration: none;
+    font-size: 130%;
+}
+
+.cadre_petite_vignette
+{
+    margin-bottom: 14px;
+}
+
+.petite_vignette
+{
+    border-radius: 3px;
+    margin-top: 3px;
+}
